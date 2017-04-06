@@ -24,6 +24,7 @@ services:
 
   elasticsearch:
     image: elasticsearch
+    mem_limit: 128m 
     expose:
       - 9200
     ports:
